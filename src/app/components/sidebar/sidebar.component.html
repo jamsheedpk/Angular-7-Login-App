@@ -1,0 +1,25 @@
+
+<nav class="col-sm-8 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" [routerLink]="['/dashboard']" >
+                <span data-feather="home"></span>
+                Dashboard <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/createuser']">
+                <span data-feather="file"></span>
+                Create user
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/assignrole']">
+                <span data-feather="file"></span>
+                Assign role
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
